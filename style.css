@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: grey;
+    color: white;
+}
+.wrapper h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.par1 p{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+#guessField{
+    font-size: 80px;
+    margin-top: 30px;
+}
+.guessField{
+    font-size: 35px;
+    margin-top: 30px;
+}
+.guessSubmit{
+    margin-top: 30px;
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
+.resultparas p{
+    text-align: center;
+    padding: 10px;
+}
